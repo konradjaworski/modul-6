@@ -1,4 +1,4 @@
-# modul-6homework :);
+# modul-6 --> homework :);
 # hello;
-# this is my next project -->homework :);
+# this is my next project;
 # i use js-css-html' elements;
