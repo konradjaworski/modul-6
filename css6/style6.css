@@ -1,0 +1,100 @@
+html {
+    box-sizing: border-box;
+    
+    }
+    
+    *, ::after, ::before {
+    box-sizing: inherit;
+    }
+
+
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container {
+    max-width: 800px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: #ddd;
+
+}
+
+.flex {
+justify-content: space-between;
+
+}
+
+.text {
+font-size:xx-large;
+font-style: italic;
+font-weight: 800;
+}
+
+.section {
+    margin: 10px 0;
+    background: white;
+    box-shadow: 0 0 5px #ddd;
+    }
+
+.section_header {
+        font-size: 20px;
+        padding: 20px;
+        margin: 0;
+        border-bottom: 1px solid #ddd;
+
+        }
+.section_body {
+    padding: 20px;
+}
+
+.form {
+display: grid;
+grid-template-columns: 1fr auto;
+grid-gap: 20px
+}
+
+.button_form {
+    padding: 10px;
+    background: rgb(7, 100, 153);
+    color: white;
+    border: none;
+
+}
+
+.tasks {
+list-style: none;
+margin: 0;
+padding: 0;
+
+}
+
+.tasks_item {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-gap: 10px;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.style {
+    text-decoration: line-through;
+}
+
+.js-remove {
+    padding: 10px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 20%;
+}
+
+.js-done{
+    padding: 10px;
+    background: green;
+    color: white;
+    border: none;
+    border-radius: 20%;
+}
